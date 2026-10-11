@@ -1,0 +1,49 @@
+{
+  "name": "server.schema",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Shared route parsing and matching utilities for server.schema middleware",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkutianski/server.schema.git"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "LICENSE",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Juan Pablo Kutianki",
+    "email": "jutianski@gmail.com"
+  },
+    "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@jest/globals": "^30.5.2",
+    "jest": "^30.5.2"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}
