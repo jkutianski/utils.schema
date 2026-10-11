@@ -5,7 +5,7 @@
   "description": "Shared route utilities for the server side of @isomorphic.schema middleware.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jkutianski/server.schema.git"
+    "url": "git+https://github.com/jkutianski/utils.schema.git"
   },
   "type": "module",
   "main": "./src/index.js",
