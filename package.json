@@ -1,8 +1,8 @@
 {
-  "name": "server.schema",
+  "name": "@isomorphic.schema/utils",
   "private": true,
   "version": "1.0.0",
-  "description": "Shared route parsing and matching utilities for server.schema middleware",
+  "description": "Shared route utilities for the server side of @isomorphic.schema middleware.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jkutianski/server.schema.git"
